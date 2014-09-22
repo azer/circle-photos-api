@@ -1,0 +1,40 @@
+{
+  "name": "circle-photos-api",
+  "version": "0.0.0",
+  "description": "API server of circle.photos",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "bin": {
+    "circle-api": "./bin/circle-api"
+  },
+  "keywords": [
+    "flickr",
+    "photos",
+    "photography",
+    "api",
+    "client"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/circle-photos-api.git",
+    "type": "git"
+  },
+  "author": "azer",
+  "license": "BSD",
+  "dependencies": {
+    "circle": "0.0.9",
+    "with-env": "^0.1.0",
+    "memoize-with-leveldb": "0.0.1",
+    "parallel-loop": "0.0.3",
+    "level-json": "0.0.7",
+    "local-debug": "0.0.0",
+    "flickr-following": "0.0.0",
+    "flickr-favorites": "0.0.0",
+    "flickr-user": "0.0.x",
+    "flickr-client": "0.0.2",
+    "default-debug": "0.0.0",
+    "flickr-photo-urls": "0.0.0",
+    "limited-parallel-loop": "0.0.1"
+  }
+}
