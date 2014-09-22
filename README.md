@@ -1,11 +1,11 @@
-## flickr-favorites-api
+## circle-photos-api
 
-API server that lists the favorites of all following users of given user.
+API server running at [api.circle.photos](http://api.circle.photos)
 
 ## Install
 
 ```bash
-$ npm install flickr-favorites-api
+$ npm install azer/circle-photos-api
 ```
 
 ## Usage
@@ -13,5 +13,5 @@ $ npm install flickr-favorites-api
 Start the server by running:
 
 ```bash
-$ flickr-favorites-api [port]
+$ circle-api [port]
 ```
